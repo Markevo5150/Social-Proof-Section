@@ -1,0 +1,21 @@
+.main-container {
+  width: 375px;
+  margin: auto;
+  background: var(--LightGray);
+  height: 500px;
+}
+.header {
+  padding: 3rem;
+  text-align: center;
+}
+.header__title {
+  color: var(--VeryDarkMagenta);
+  padding: 0 1rem;
+  margin-bottom: 1.5rem;
+  font-weight: var(--extraBold);
+}
+.header__info {
+  color: var(--VeryDarkMagenta);
+  font-weight: var(--normalFont);
+  margin-bottom: 1.5rem;
+}
