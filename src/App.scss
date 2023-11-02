@@ -1,7 +1,7 @@
 .main-container {
   width: 375px;
   margin: auto;
-  background: var(--LightGray);
+  /*background: var(--LightGray);*/
   height: 500px;
 }
 .header {
@@ -17,5 +17,5 @@
 .header__info {
   color: var(--VeryDarkMagenta);
   font-weight: var(--normalFont);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }

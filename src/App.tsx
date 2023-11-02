@@ -14,9 +14,9 @@ export default function App() {
           </p>
         </div>
         <div className="rating-section">
-          <Rate stars={5}>Rated five stars in Reviews</Rate>
-          <Rate stars={2}>Rated five stars in Reviews</Rate>
-          <Rate stars={4}>Rated five stars in Reviews</Rate>
+          <Rate stars={5}>Rated 5 stars in Reviews</Rate>
+          <Rate stars={5}>Rated 5 stars in Report Guru</Rate>
+          <Rate stars={5}>Rated 5 stars in BestTech</Rate>
         </div>
       </div>
     </>
