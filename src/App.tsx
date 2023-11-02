@@ -12,7 +12,9 @@ export default function App() {
             services.
           </p>
         </div>
-        <div className="rating-section"></div>
+        <div className="rating-section">
+          <Rate>Hello</Rate>
+        </div>
       </div>
     </>
   );

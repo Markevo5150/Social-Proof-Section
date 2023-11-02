@@ -1,8 +1,8 @@
-export interface Props
-  extends React.DetailedHTMLProps<
-    React.ButtonHTMLAttributes<HTMLButtonElement>,
-    HTMLButtonElement
-  > {
+import "./Rate.scss";
+
+interface Props {
   children: string;
-  variant?: "action" | "reset";
+}
+export interface Props {
+  children: string;
 }

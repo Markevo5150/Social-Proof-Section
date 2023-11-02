@@ -1,3 +1,14 @@
 import classNames from "classnames";
-import type { Props } from "./types";
+import { Props } from "./types";
 import "./Rate.scss";
+
+export default function Rate({ children }: Props) {
+  return (
+    <div className={classNames("rt")}>
+      <div className="icon"></div>
+      <div className="title">
+        <h2>{children}</h2>
+      </div>
+    </div>
+  );
+}
