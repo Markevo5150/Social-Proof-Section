@@ -1,6 +1,7 @@
 .rt {
   background-color: var(--LightGrayishMagenta);
-  margin-bottom: 2rem;
+  margin: auto;
+  margin-bottom: 1rem;
   width: 350px;
   text-align: center;
   color: var(--VeryDarkMagenta);
@@ -10,4 +11,8 @@
   flex-direction: column;
   justify-content: center;
   border-radius: 15px;
+  font-size: 12px;
+}
+.starBox {
+  margin-bottom: 0.5rem;
 }

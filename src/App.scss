@@ -2,7 +2,7 @@
   width: 375px;
   margin: auto;
   /*background: var(--LightGray);*/
-  height: 500px;
+  height: 800px;
 }
 .header {
   padding: 3rem;
@@ -17,5 +17,7 @@
 .header__info {
   color: var(--VeryDarkMagenta);
   font-weight: var(--normalFont);
-  margin-bottom: 1rem;
+}
+.rating-section {
+  margin-top: 1rem;
 }
