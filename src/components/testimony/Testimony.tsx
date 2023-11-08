@@ -1,6 +1,8 @@
 import classNames from "classnames";
 import { Props } from "./types";
 import "./Testimony.scss";
+import  from "../../images/icon-star.svg";
+
 
 export default function Testimony({ image, name, userTitle, comment }: Props) {
   return (
